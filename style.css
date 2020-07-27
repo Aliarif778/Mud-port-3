@@ -339,7 +339,7 @@ h2 {
   justify-content: center;
 }
 
-p {
+#about p {
   height: 100%;
   background-color: rgb(32, 27, 27);
   color: #fff;
@@ -418,6 +418,57 @@ img {
   -webkit-box-reflect: below 1px
     linear-gradient(transparent, transparent, #0006);
 }
+
+
+/* CONTACT */
+
+
+.form-container {
+  width: 35%;
+  background-color: rgb(19, 17, 17);
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  
+  
+} 
+
+h4 {
+  font-size: 4rem;
+  padding: 25px 10px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color:white
+}
+
+li {
+  display: flex;
+  margin: 20px auto;
+ 
+}
+
+li i {
+  margin: 0;
+  padding: 0 20px;
+  
+  
+}
+
+li p {
+  margin: 0;
+  letter-spacing: 1px;
+  padding: 0;
+  padding-top: 5px;
+  font-size: 20px
+  
+  
+}
+
+
+
+
+/* FOOTER */
 
 #footer {
   font-size: 20px;
