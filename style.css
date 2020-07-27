@@ -369,9 +369,17 @@ WORK START  */
 
 .work-cont {
   margin-top: 350px;
-  margin-bottom: 200px;
-
+  margin-bottom: 100px;  
+  border-radius: 20px;
   background-color: rgb(61, 55, 55);
+}
+
+h3 {
+  font-size: 5rem;
+  padding: 30px 0;
+  margin: auto 0;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
 }
 
 .main {
@@ -385,6 +393,7 @@ WORK START  */
   justify-content: center;
   align-items: center;
   background-color: #111;
+  border-radius: 5px;
   min-height: 100vh;
 }
 
@@ -408,6 +417,14 @@ img {
   background-color: #000;
   -webkit-box-reflect: below 1px
     linear-gradient(transparent, transparent, #0006);
+}
+
+#footer {
+  font-size: 20px;
+  padding: 10px 0;
+  letter-spacing: 1px;
+
+  background-color: rgb(19, 17, 17);
 }
 
 /* TABLET VIEW */
